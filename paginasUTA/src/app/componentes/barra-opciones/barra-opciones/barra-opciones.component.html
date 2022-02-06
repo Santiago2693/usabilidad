@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barra de opciones</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+
+
+</head>
+<body>
+
+<header>
+  <div class="contenedor">
+
+    <a href="#" class="logo"><img src="assets/imagenes/logo-uta.webp" alt="Logo UTA"></a>
+    <i class="toggle-btn fas fa-bars" (click)="jquerry()"></i>
+
+    <nav class="nav-menus">
+      <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+      <li><a href="#"><i class="fas fa-list-ul"></i> Oferta Académica</a></li>
+      <li class="sub-menus" (click)="jquerrySubOpciones()"><a href="#"><i class="fas fa-list-ul"></i> Institución</a>
+        <ul>
+          <li><a href="#"><i class="fab fa-angular"></i> Filosofía</a></li>
+          <li><a href="#"><i class="fab "></i> WordPress</a></li>
+          <li><a href="#"><i class="fab "></i> HTML5</a></li>
+          <li><a href="#"><i class="fab "></i> CSS</a></li>
+          <li><a href="#"><i class="fab "></i> Angular</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><i class="fas fa-users"></i> Vinculación</a></li>
+      <li><a href="#"><i class="fas fa-phone-alt"></i> Contáctanos</a></li>
+    </nav>
+  </div>
+</header>
+
+</body>
+</html>
