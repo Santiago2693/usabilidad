@@ -21,7 +21,7 @@ export class BarraOpcionesComponent implements OnInit {
   }
   jquerrySubOpciones(){
     $(this).toggleClass("fa-times");
-    $("ul").toggleClass("active");
+    $("ul li").toggleClass("active");
 
   }
 

@@ -1,2 +1,102 @@
 <app-barra-opciones></app-barra-opciones>
+<h1 id="titulo" tabindex="0">Contacto</h1>
+<div id="contenedor-formulario" class="col-lg-11 col-md-11 col-sm-12 col-xs-12 contact texto">
+  <p id="info" tabindex="0">Llene sus datos y nosotros te responderemos a la brevedad.
+  </p>
+
+  <form >
+    <div class="row">
+      <div class="mb-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <label for="nombre"
+               class="form-label">
+          Nombre y apellido:
+        </label>
+        <input type="text"
+               class="form-control"
+               formControlName="nombre"
+               id="nombre"
+               aria-describedby="nombreHelp" placeholder="Ejemplo. Santiago Villegas">
+        <div id="nombreHelp"
+             class="form-text">
+          Ingrese primero su nombre y luego su apellido.
+        </div>
+      </div>
+
+      <div class="mb-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <label for="email"
+               class="form-label">
+          E-mail:
+        </label>
+        <input type="email"
+               class="form-control"
+               formControlName="email"
+               id="email"
+               aria-describedby="emailHelp" placeholder="Ejemplo. guevara-villegas@hotmail.com" >
+        <div id="emailHelp"
+             class="form-text">
+          Ingrese su correo electrónico.
+        </div>
+      </div>
+
+      <div class="mb-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <label for="telefono"
+               class="form-label">
+          Telélefono:
+        </label>
+        <input type="text"
+               class="form-control"
+               formControlName="telefono"
+               id="telefono"
+               aria-describedby="telefonoHelp" placeholder="Ejemplo. 0962975501">
+        <div id="telefonolHelp"
+             class="form-text">
+          Ingrese su número de contacto.
+        </div>
+      </div>
+
+      <div class="mb-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <label for="ciudad"
+               class="form-label">
+          Ciudad:
+        </label>
+        <input type="text"
+               class="form-control"
+               formControlName="ciudad"
+               id="ciudad"
+               aria-describedby="ciudadHelp" placeholder="Ejemplo. Quito" >
+        <div id="ciudadHelp"
+             class="form-text">
+          Ingrese su ciudad de residencia.
+        </div>
+      </div>
+
+
+      <div class="mb-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <label for="mensaje"
+               class="form-label">
+          Mensaje:
+        </label>
+        <textarea
+               class="form-control"
+               formControlName="mensaje"
+               id="mensaje"
+               aria-describedby="mensajeHelp" >
+        </textarea>
+        <div id="mensajeHelp"
+             class="form-text">
+          Escriba su inquietud.
+        </div>
+      </div>
+      <div class="center">
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+  </div>
+
+  </form >
+
+
+
+
+</div>
 <app-barra-final></app-barra-final>
