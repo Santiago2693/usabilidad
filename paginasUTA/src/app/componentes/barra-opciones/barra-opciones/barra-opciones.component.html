@@ -13,12 +13,16 @@
 <header>
   <div class="contenedor">
 
-    <a href="informacion" class="logo"><img src="assets/imagenes/logo-uta.webp" alt="Logo UTA"></a>
+    <a  class="logo"><img src="assets/imagenes/logo-uta.webp" alt="Logo UTA"></a>
     <i class="toggle-btn fas fa-bars" (click)="jquerry()"></i>
 
     <nav class="nav-menus">
+      <ul>
       <li><a href="informacion"><i class="fas fa-home"></i> Inicio</a></li>
+      </ul>
+      <ul>
       <li class="sub-menus largo" ><a href="informacion"><i class="fas fa-list-ul"></i> Oferta Académica</a>
+
         <ul>
           <li><a href="#"><i class="fab"></i>Ciencia e Ingeniería en Alimentos y Biotecnología</a></li>
           <li><a href="#"><i class="fab "></i>Ciencias Administrativas</a></li>
@@ -31,6 +35,8 @@
         </ul>
 
       </li>
+      </ul>
+      <ul>
       <li class="sub-menus corto" (click)="jquerrySubOpciones()"><a href="#"><i class="fas fa-list-ul"></i> Institución</a>
         <ul>
           <li><a href="#"><i class="fab"></i> Filosofía</a></li>
@@ -40,9 +46,14 @@
           <li><a href="#"><i class="fab "></i> Plan Estratégico</a></li>
         </ul>
       </li>
-
+      </ul>
+      <ul>
       <li><a href="contacto"><i class="fas fa-phone-alt"></i> Contáctanos</a></li>
+      </ul>
+      <ul>
       <li><a href="busqueda"><i class="fas  fa-search"></i> Buscar</a></li>
+      </ul>
+
     </nav>
   </div>
 </header>
